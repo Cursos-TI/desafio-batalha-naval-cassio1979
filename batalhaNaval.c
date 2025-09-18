@@ -18,12 +18,12 @@ int main() {
           tabuleiro[i][j] = '0';
           
             //iniciando o terceiro loop para introduzir o começo do navio horizontal no campo: linha 2, coluna 2. 
-            for (int a = 0; a < 3; a++) {
-              tabuleiro[2+a][2] = '3';
+            for (int i = 0; i < 3; i++) {
+              tabuleiro[2+i][2] = '3';
             }
             //iniciando loop para introduzir o começo do navio vertical no campo: linha 5, coluna 5.
-            for (int b = 0; b < 3; b++) {
-              tabuleiro[5][5+b] = '3';
+            for (int j = 0; j < 3; j++) {
+              tabuleiro[5][5+j] = '3';
             }
         //imprimento o tabuleiro e preenchendo os intervalos com espaços 
         printf("%c", tabuleiro[i][j]);
